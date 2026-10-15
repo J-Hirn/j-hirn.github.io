@@ -28,5 +28,5 @@ footer{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--line);color:v
 .links a:hover{color:var(--accent)}
 .links a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px}
 .icon{width:.95rem;height:.95rem;flex:none}
-
+.me{font-weight:600;color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:2px;text-underline-offset:3px}
 @media (max-width:600px){.intro{grid-template-columns:1fr}.portrait{width:9rem;height:9rem}.side{width:9rem}}
