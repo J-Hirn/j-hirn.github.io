@@ -7,7 +7,7 @@ h1,h2,h3{font-family:Newsreader,Georgia,"Times New Roman",serif;font-weight:500;
 h1{font-size:2.2rem}h2{font-size:1.4rem;margin-top:2em}h3{font-size:1.05rem;font-family:inherit;font-weight:600}
 a{color:var(--accent)}
 a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
-.wrap{max-width:44rem;margin:0 auto;padding:1.5rem 1.25rem 4rem}
+.wrap{max-width:52rem;margin:0 auto;padding:1.5rem 1.25rem 4rem}
 header.site{display:flex;flex-wrap:wrap;gap:.5rem 1.75rem;align-items:baseline;padding-bottom:1rem;border-bottom:1px solid var(--line);margin-bottom:2.5rem}
 header.site .name{font-family:Newsreader,Georgia,serif;font-size:1.25rem;margin-right:auto;color:var(--ink);text-decoration:none}
 header.site a.nav{color:var(--muted);text-decoration:none}
