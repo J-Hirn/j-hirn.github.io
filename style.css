@@ -20,4 +20,13 @@ header.site a[aria-current=page]{color:var(--ink);border-bottom:2px solid var(--
 .entry .when{color:var(--muted);font-size:.9rem}
 ul.plain{list-style:none;padding:0;margin:0}
 footer{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
-@media (max-width:600px){.intro{grid-template-columns:1fr}.portrait{width:9rem;height:9rem}}
+
+/* Icons under the picture */
+.side{display:flex;flex-direction:column;align-items:center;gap:.75rem;width:12rem}
+.links{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:center;align-items:center;gap:.6rem}
+.links a{display:inline-flex;color:var(--muted);transition:color .15s}
+.links a:hover{color:var(--accent)}
+.links a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px}
+.icon{width:.95rem;height:.95rem;flex:none}
+
+@media (max-width:600px){.intro{grid-template-columns:1fr}.portrait{width:9rem;height:9rem}.side{width:9rem}}
